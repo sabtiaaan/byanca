@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secret Cat Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="lock-screen">
+    <h2>Masukkan Password</h2>
+    <input type="password" id="password-input" placeholder="Password">
+    <button onclick="unlockGallery()">Unlock</button>
+    <p id="error-message"></p>
+  </div>
+
+  <div id="gallery" style="display: none;">
+    <h2>Koleksi Rahasia 😼</h2>
+    <div class="grid">
+      <img src="images/kucing1.jpeg" alt="Kucing 1">
+      <img src="images/kucing2.jpeg" alt="Kucing 2">
+      <img src="images/kucing3.jpeg" alt="Kucing 3">
+      <img src="images/kucing4.jpeg" alt="Kucing 4">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
