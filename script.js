@@ -1,6 +1,6 @@
 function unlockGallery() {
   const password = document.getElementById('password-input').value;
-  if (password === 'meow123') {
+  if (password === 'ikan goreng') {
     document.getElementById('lock-screen').style.display = 'none';
     document.getElementById('gallery').style.display = 'block';
   } else {
