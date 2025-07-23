@@ -12,6 +12,10 @@ body {
 input[type="password"] {
   padding: 10px;
   font-size: 16px;
+  width: 250px; /* Tambahkan ini biar kotaknya gak kecil */
+  border-radius: 8px;
+  border: none;
+  outline: none;
 }
 
 button {
@@ -19,6 +23,10 @@ button {
   font-size: 16px;
   margin-left: 10px;
   cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #006060;
+  color: white;
 }
 
 #error-message {
