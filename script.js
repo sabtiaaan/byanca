@@ -1,5 +1,5 @@
 function unlockGallery() {
-  const password = document.getElementById('password-input').value;
+  const password = document.getElementById("password-input").value.toLowerCase();
   if (password === 'ikan goreng') {
     document.getElementById('lock-screen').style.display = 'none';
     document.getElementById('gallery').style.display = 'block';
